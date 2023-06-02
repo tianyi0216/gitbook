@@ -39,9 +39,15 @@ CAR-LASSO simulatenoelously estimates the conditional effect of a set of predict
 
 Let $$Y_i \in \mathbb{R}^k$$ be multivariate reponse with $$k$$ entries for $$i = 1, \dots , n$$ observations.&#x20;
 
-Let $$X_i \in \mathbb{R}^{1 \times p}$$ be the row vector of predictors for $$i = 1, \dots , n$$&#x20;
+Let $$X_i \in \mathbb{R}^{1 \times p}$$ be the row vector of predictors for $$i = 1, \dots , n$$, assume design matrix is standardized so each column has mean of 0 and same standard deviation.
 
+Let $$Y_i$$ follow a normal distribution with mean vector $$\Omega^-1(B^TX_i^T + \mu)$$ and precision matrix $$\Omega \in \mathbb{R}^{k \times k}$$ (positive definite) where $$B \in \mathbb{R}^{p \times k}$$ correspond to regression coefficients connecting the responses to predictors and $$\mu \in \mathbb{R}^k$$ correspond to the intercept.  Author use transpose $$B^TX_i^T \in \mathbb{R}^{k \times 1}$$ because samples are encoded as row vectors in the design matrix while by convention multivariate Normal samples are column vectors.
 
+The likelihood function of the model is:
 
+$$
+p(Y_i|X_i, \mu, B, \Omega) \propto \exp[(B^TX_i^T+\mu)^TY_i - \frac{1}{2}Y_i^T\Omega Y_i]
+$$
 
+$$B$$ encodes the conditional dependence between $$Y$$ and $$X$$. If $$B_{jq} = 0$$, then $$X_j$$ and $$Y_q$$ are conditionally independent.&#x20;
 
