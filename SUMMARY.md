@@ -12,3 +12,8 @@
 
 * [Intro](reading-notes/intro.md)
 * [CAR-LASSO](reading-notes/car-lasso.md)
+
+## 🍍 NLP
+
+* [NLP](nlp/nlp.md)
+* [Sequence Model](nlp/sequence-model.md)
