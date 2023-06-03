@@ -75,3 +75,12 @@ Amount of shrinkage, $$1 - \pi$$ where $$\pi = \frac{\tilde{\theta}}{E_g(\theta|
 
 Adaptive lasso - prior knowledge of independence among certain nodes.
 
+**Examples**
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Example on human gut dataset.</p></figcaption></figure>
+
+CG-LASSO's conditional effects can be more informative than marginal effects.
+
+### Discussion
+
+Conditional Dependence is important - distinguishing between marginal effects and conditional effects. Bayesian model allows for an easier extension to different types of responses. It is also hard to learn graphical structure - confounding in its own structure.
