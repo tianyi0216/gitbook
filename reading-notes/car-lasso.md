@@ -49,5 +49,29 @@ $$
 p(Y_i|X_i, \mu, B, \Omega) \propto \exp[(B^TX_i^T+\mu)^TY_i - \frac{1}{2}Y_i^T\Omega Y_i]
 $$
 
-$$B$$ encodes the conditional dependence between $$Y$$ and $$X$$. If $$B_{jq} = 0$$, then $$X_j$$ and $$Y_q$$ are conditionally independent.&#x20;
+$$B$$ encodes the conditional dependence between $$Y$$ and $$X$$. If $$B_{jq} = 0$$, then $$X_j$$ and $$Y_q$$ are conditionally independent. $$\Omega$$ off diagonal entried encode the conditional dependence between $$Y_q$$ and $$Y_{q^\prime}$$.  The regression coefficients in multiresponse linear regression, $$\tilde{B} = B\Omega$$ are marginal effects.
+
+**Prior Specification:**
+
+Assume Laplace prior on $$B$$ and GLASSO prior on $$\Omega$$
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Full Model Specification</p></figcaption></figure>
+
+Note $$I_{\Omega \in M^+}$$ means $$\Omega$$ must be positive definite.
+
+**Algorithm**
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Algorithm for Gibbs Sampling</p></figcaption></figure>
+
+hyperparameters: we determine $$\lambda_\Beta$$ and $$\lambda_\Omega$$.
+
+**Learning:**
+
+Continuous prior $$\implies$$zero probability for parameter to be zero.
+
+Amount of shrinkage, $$1 - \pi$$ where $$\pi = \frac{\tilde{\theta}}{E_g(\theta|Y)}$$ , $$\tilde{\theta}$$ is the estimate of parameter under LASSO prior and denominator is the posterior mean of parameter under non-shrinkage prior. Use $$\pi > 0.5$$ to decide that $$\theta \neq 0$$.
+
+**Extensions**
+
+Adaptive lasso - prior knowledge of independence among certain nodes.
 
