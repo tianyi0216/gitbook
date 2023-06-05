@@ -17,7 +17,7 @@ Problem with standard NN: input, output can have different length. Doesn't share
 
 RNN:&#x20;
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 Activation of previous input (word) can be used in the next one. So allow output of one node to affect subsequence nodes. (Unidirection RNN)
 

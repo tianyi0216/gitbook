@@ -55,13 +55,13 @@ $$B$$ encodes the conditional dependence between $$Y$$ and $$X$$. If $$B_{jq} = 
 
 Assume Laplace prior on $$B$$ and GLASSO prior on $$\Omega$$
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Full Model Specification</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Full Model Specification</p></figcaption></figure>
 
 Note $$I_{\Omega \in M^+}$$ means $$\Omega$$ must be positive definite.
 
 **Algorithm**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Algorithm for Gibbs Sampling</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Algorithm for Gibbs Sampling</p></figcaption></figure>
 
 hyperparameters: we determine $$\lambda_\Beta$$ and $$\lambda_\Omega$$.
 
