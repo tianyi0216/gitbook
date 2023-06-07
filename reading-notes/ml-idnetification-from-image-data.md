@@ -30,5 +30,7 @@ D-CNN. Use VGG19 DCNN on ImageNet with custom top layers on colony dataset. Appl
 
 First approach, train custom layers with learning rate of $$10^{-3}$$. Second approach is train all layers with learning rate of $$10^{-5}$$.Metrics: accuracy and loss, and use cross-entropy loss. Second approach produced the best performance across all metrics.
 
+Note: downsampled the image to allow the use of pre-trained imagenet. So downsampling could be very important in this type of transfer learning (or, to make sure the image's dimension matches).
+
 
 
