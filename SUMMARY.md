@@ -13,6 +13,7 @@
 * [Intro](reading-notes/intro.md)
 * [CAR-LASSO](reading-notes/car-lasso.md)
 * [Sound Classification](reading-notes/sound-classification.md)
+* [ML idnetification from Image Data](reading-notes/ml-idnetification-from-image-data.md)
 
 ## 🍍 NLP
 

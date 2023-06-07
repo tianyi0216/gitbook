@@ -26,9 +26,9 @@ We determine from vocalization, its sonotype.
 
 **Transfer Learning**
 
-Author uses parameter from Keras VCG-19 model. Been trained on ImageNet dataset.&#x20;
+Author uses parameter from Keras VGG-19 model. Been trained on ImageNet dataset.&#x20;
 
-Preprocessing: transfer data to Keras VCG-19 format - 8-bit per RGC channel, 224 x 224 colored images.
+Preprocessing: transfer data to Keras VGG-19 format - 8-bit per RGC channel, 224 x 224 colored images.
 
 Author identified highest and lowest frequency intensities $$F_i$$ and $$f_i$$ for each vocalization image $$V_i$$ and performed following normalization:
 
@@ -56,7 +56,7 @@ VCG-19 model without four top layers. Then, flatten into a vector and concatenat
 
 **Training**
 
-Initialize layers of VCG19 with weights trained on ImageNet and froze those layers during training.
+Initialize layers of VGG19 with weights trained on ImageNet and froze those layers during training.
 
 Initialize weights randoms for each layers. Applied early stopping with a patience for 15 epochs to stop the training for overfitting.
 
