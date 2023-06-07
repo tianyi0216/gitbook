@@ -38,7 +38,7 @@ $$
 
 Each pixel in $$V_i^{\prime}$$ take value between 0 and 255 - corresponding to 8-bit gray scale images. To transform into RGB images,simply replicate each $$V_i^{\prime}$$ into 3 channels.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>VCG-19 without top layer on the left, after flatten - author's layers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>VGG-19 without top layer on the left, after flatten - author's layers</p></figcaption></figure>
 
 **Data Augmentation**
 
@@ -52,7 +52,7 @@ Modified about 5 - 10% for changing the shape, and added 1/3 of the noise.
 
 **Model**
 
-VCG-19 model without four top layers. Then, flatten into a vector and concatenated with 4 values corresonding to start/end time, lowest and highest frequency of vocalization. Then, pass through two couples of dense dropout layers and a softmax dense output layer to obtain the final output.
+VGG-19 model without four top layers. Then, flatten into a vector and concatenated with 4 values corresonding to start/end time, lowest and highest frequency of vocalization. Then, pass through two couples of dense dropout layers and a softmax dense output layer to obtain the final output.
 
 **Training**
 

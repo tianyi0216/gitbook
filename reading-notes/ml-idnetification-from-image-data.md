@@ -26,5 +26,9 @@ Fig 4- extent of variation using coefficients of variation (CV = mean / standard
 
 **classifying from image data**
 
-D-CNN. Use VGG19 DCNN on&#x20;
+D-CNN. Use VGG19 DCNN on ImageNet with custom top layers on colony dataset. Apply data augmentation increase 266 images to 38304 images. 74-26 train test split.
+
+First approach, train custom layers with learning rate of $$10^{-3}$$. Second approach is train all layers with learning rate of $$10^{-5}$$.Metrics: accuracy and loss, and use cross-entropy loss. Second approach produced the best performance across all metrics.
+
+
 
