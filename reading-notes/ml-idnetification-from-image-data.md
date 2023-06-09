@@ -18,7 +18,7 @@ D-CNN and data augmentation and transfer learning to classify strains of P.aerug
 
 Isolates -> LB agar plates with Congo red -> quadruplicate and generate images.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Data</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Data</p></figcaption></figure>
 
 The above figure summarizes some of the metrics (B) we use for colony complexity, especially compression ratio and sobel operator. (both in form of vector)
 

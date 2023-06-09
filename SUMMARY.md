@@ -11,11 +11,11 @@
 ## 🍉 Reading Notes
 
 * [Intro](reading-notes/intro.md)
-* [Vocabulary](reading-notes/vocabulary.md)
 * [CAR-LASSO](reading-notes/car-lasso.md)
 * [Sound Classification](reading-notes/sound-classification.md)
 * [ML idnetification from Image Data](reading-notes/ml-idnetification-from-image-data.md)
 * [Multivariate Distribution and Inference Applications](reading-notes/multivariate-distribution-and-inference-applications.md)
+* [Vocabulary](reading-notes/vocabulary.md)
 
 ## 🍍 NLP
 
