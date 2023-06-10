@@ -16,6 +16,7 @@
 * [ML idnetification from Image Data](reading-notes/ml-idnetification-from-image-data.md)
 * [Multivariate Distribution and Inference Applications](reading-notes/multivariate-distribution-and-inference-applications.md)
 * [Vocabulary](reading-notes/vocabulary.md)
+* [GCD Algorithm Proof](reading-notes/gcd-algorithm-proof.md)
 
 ## 🍍 NLP
 
