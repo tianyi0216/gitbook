@@ -7,6 +7,9 @@
 * [Intro](courses/intro.md)
 * [Fall 2021](courses/fall-2021.md)
 * [Spring 2022](courses/spring-2022.md)
+* [Summer 2022](courses/summer-2022.md)
+* [Fall 2022](courses/fall-2022.md)
+* [Spring 2023](courses/spring-2023.md)
 
 ## 🍉 Reading Notes
 

@@ -32,7 +32,7 @@ Classes I took:
 | ASIALANG 104  | Second Semester Japanese             | <p>Takako Nakakubo<br>Kenia Hara</p> |
 | MUSIC 43      | University Band                      | <p>Eric Sayre<br>Ashley Hawk</p>     |
 
-### Summer 2022
+### [Summer 2022](summer-2022.md)
 
 | Course Number | Course Name                          | Instructor                             |
 | ------------- | ------------------------------------ | -------------------------------------- |
@@ -40,7 +40,7 @@ Classes I took:
 | ASIALANG 203  | Third Semester Japanese              | <p>Yuki Sakomura<br>Mitsuhiro Kono</p> |
 | ASIALANG 204  | Fourth Semester Japanese             | <p>Yuki Shimizu<br>Taiga Ikedo</p>     |
 
-### Fall 2022
+### [Fall 2022](fall-2022.md)
 
 | Course Number | Course Name                             | Instructor                           |
 | ------------- | --------------------------------------- | ------------------------------------ |
@@ -51,7 +51,7 @@ Classes I took:
 | ASIALANG 303  | Fifth Semester Japanese                 | <p>Naomi Geyer<br>Mitsuhiro Kono</p> |
 | MUSIC 43      | University Band                         | <p>Ashley Hawk<br>Jake Walker</p>    |
 
-### Spring 2023
+### [Spring 2023](spring-2023.md)
 
 | Course Number | Course Name                                            | Instructor         |
 | ------------- | ------------------------------------------------------ | ------------------ |
