@@ -29,4 +29,4 @@
 
 ## 🗯 Personal Interest
 
-* [Anime List](personal-interest/anime-list.md)
+* [Lists](personal-interest/lists.md)
