@@ -20,8 +20,13 @@
 * [Multivariate Distribution and Inference Applications](reading-notes/multivariate-distribution-and-inference-applications.md)
 * [Vocabulary](reading-notes/vocabulary.md)
 * [GCD Algorithm Proof](reading-notes/gcd-algorithm-proof.md)
+* [Network Visualization](reading-notes/network-visualization.md)
 
 ## 🍍 NLP
 
 * [NLP](nlp/nlp.md)
 * [Sequence Model](nlp/sequence-model.md)
+
+## 🗯 Personal Interest
+
+* [Anime List](personal-interest/anime-list.md)
