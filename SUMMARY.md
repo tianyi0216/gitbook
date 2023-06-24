@@ -1,6 +1,13 @@
 # Table of contents
 
 * [😄 Home](README.md)
+* [🈴 News](news.md)
+
+## 🍅 Blog
+
+* [Intro](blog/intro.md)
+* [GCD Algorithm Proof](blog/gcd-algorithm-proof.md)
+* [How to Visualize Large Network](blog/how-to-visualize-large-network.md)
 
 ## 😅 courses
 
@@ -19,7 +26,6 @@
 * [ML idnetification from Image Data](reading-notes/ml-idnetification-from-image-data.md)
 * [Multivariate Distribution and Inference Applications](reading-notes/multivariate-distribution-and-inference-applications.md)
 * [Vocabulary](reading-notes/vocabulary.md)
-* [GCD Algorithm Proof](reading-notes/gcd-algorithm-proof.md)
 * [Network Visualization](reading-notes/network-visualization.md)
 
 ## 🍍 NLP
