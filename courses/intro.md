@@ -68,6 +68,6 @@ Classes I took:
 | CS 520        | Introduction to Theory of Computing         | Jin-Yi Cai              |
 | CS 539        | Introduction to Artificial Neural Networks  | Pedro Maravilha Morgado |
 | CS 544        | Introduction to Big Data Systems            | Tyler Caraza-Harter     |
-| CS 571        | Building User Interfaces                    | Yuhang Zhao             |
+| MATH 525      | Linear Optimization                         | Alberto Del Pia         |
 | MATH 431      | Introduction to the Theory of Probabilities | Benedek Valko           |
 | ENGL 150      | Literature & Culture of Asian America       | Timothy Yu              |
