@@ -132,4 +132,4 @@ Let $$V$$ be the latent variable that denotes number of elements in set $$I_e$$ 
 
 M-step: Maximization of the Q-function. (from step 1)
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>EM</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>EM</p></figcaption></figure>

@@ -27,6 +27,7 @@
 * [Multivariate Distribution and Inference Applications](reading-notes/multivariate-distribution-and-inference-applications.md)
 * [Vocabulary](reading-notes/vocabulary.md)
 * [Network Visualization](reading-notes/network-visualization.md)
+* [BirdNet](reading-notes/birdnet.md)
 
 ## 🍍 NLP
 
