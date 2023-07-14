@@ -28,6 +28,7 @@
 * [Vocabulary](reading-notes/vocabulary.md)
 * [Network Visualization](reading-notes/network-visualization.md)
 * [BirdNet](reading-notes/birdnet.md)
+* [Script](reading-notes/script.md)
 
 ## 🍍 NLP
 
