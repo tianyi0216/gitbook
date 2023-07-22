@@ -10,7 +10,7 @@ Covariance: Measures the joint variability of two variables. If the variables te
 
 Precision matrix: Inverse of the covariance matrix, gives about conditional independence and partial correlations.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Precision matrix, source: fiveMinuteStats</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Precision matrix, source: fiveMinuteStats</p></figcaption></figure>
 
 Bell numbers: possible partitions of a set
 

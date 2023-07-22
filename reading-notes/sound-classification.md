@@ -38,7 +38,7 @@ $$
 
 Each pixel in $$V_i^{\prime}$$ take value between 0 and 255 - corresponding to 8-bit gray scale images. To transform into RGB images,simply replicate each $$V_i^{\prime}$$ into 3 channels.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>VGG-19 without top layer on the left, after flatten - author's layers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>VGG-19 without top layer on the left, after flatten - author's layers</p></figcaption></figure>
 
 **Data Augmentation**
 
