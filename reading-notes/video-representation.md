@@ -17,5 +17,10 @@ Input: $$N$$ clips $$\{v_1, v_2, \dots, v_N\}$$. Each $$v_i$$ captues a potentia
 
 Learn video representation that encodes both action step and temporal dependencies. Representation: video encoder $$f$$ that extracts representation $$x_i$$ from $$v_i$$ ($$x_i = f(v_i)$$). Probabilistic model: conditional probability $$p(x_j = f(v_j) | \{ x_i = f(v_i) \} _{i \neq j} ) \forall j$$. $$p(x_j | \{ x_i \} _{i \neq j} )$$ models the temporal dependencies among steps.
 
-Overview: leverage pretrained text encoder $$g$$ that is fixed during learning, extend the idea of masked token modeling, populated in NLP. For randomly sample clip, train the model and predict the distribution of $$x_j = f(v_j)$$ from the probabilistic model.&#x20;
+Overview: leverage pretrained text encoder $$g$$ that is fixed during learning, extend the idea of masked token modeling, populated in NLP. For randomly sample clip, train the model and predict the distribution of $$x_j = f(v_j)$$ from the probabilistic model. Align with expecation $$\mathbb{E} (x_j)$$ with corresponding text emvedding $$y_j = g(s_j)$$ and match $$\{ x_i = f(v_i) \}_{i \neq j}$$ to their text embedding $$\{ y_i = g(s_i) \}_{i\neq j}$$. The method seeks to characterize the distribution of $$x_j$$ instead of predict.&#x20;
 
+
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>method</p></figcaption></figure>
+
+It is important to know that the model uses a diffusion process to model p(x\_j | {x\_i}_{i \neq j). Which gradually add noise to input x_j over T steps.&#x20;
