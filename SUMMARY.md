@@ -31,6 +31,8 @@
   * [Script Note for Journal Presentation](reading-notes/birdnet/script-note-for-journal-presentation.md)
 * [YOLO](reading-notes/yolo.md)
 * [Transformer for Image](reading-notes/transformer-for-image.md)
+* [Salient Object Segmentation](reading-notes/salient-object-segmentation.md)
+* [Video Representation](reading-notes/video-representation.md)
 
 ## 🍍 NLP
 
