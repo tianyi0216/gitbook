@@ -30,6 +30,7 @@
 * [BirdNet](reading-notes/birdnet/README.md)
   * [Script Note for Journal Presentation](reading-notes/birdnet/script-note-for-journal-presentation.md)
 * [YOLO](reading-notes/yolo.md)
+* [Transformer for Image](reading-notes/transformer-for-image.md)
 
 ## 🍍 NLP
 
