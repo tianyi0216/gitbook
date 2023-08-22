@@ -33,12 +33,19 @@
 * [Transformer for Image](reading-notes/transformer-for-image.md)
 * [Salient Object Segmentation](reading-notes/salient-object-segmentation.md)
 * [Video Representation](reading-notes/video-representation.md)
+* [Microbiome Network Analysis](reading-notes/microbiome-network-analysis.md)
+
+## 🈚 Course\_Notes
+
+* [CS 839 Notes](course\_notes/cs-839-notes/README.md)
+  * [Lecture 1](course\_notes/cs-839-notes/lecture-1.md)
+  * [Lecture 2](course\_notes/cs-839-notes/lecture-2.md)
+
+## 🗯 Personal Interest
+
+* [ACG](personal-interest/acg.md)
 
 ## 🍍 NLP
 
 * [NLP](nlp/nlp.md)
 * [Sequence Model](nlp/sequence-model.md)
-
-## 🗯 Personal Interest
-
-* [Lists](personal-interest/lists.md)

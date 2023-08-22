@@ -1,6 +1,6 @@
 # 🈴 News
 
-* June 2023: I am peer mentoring CS 320 for the Summer 23 semester.
+* June 2023: I am peer mentoring CS 320 for the Summer and Fall 23.
 * May 2023: I am working at Solis-Lemus Lab for summer 2023 as a student hourly research assistant.
 * Feb 2023: I am working with the Informatic Skunkworks group on learning-based medical image analysis.
 * Jan 2023: Joined Wisconsin Institute for Discovery as an undergraduate research assistant with professor Claudia Solis-Lemus.
