@@ -61,7 +61,7 @@ Note $$I_{\Omega \in M^+}$$ means $$\Omega$$ must be positive definite.
 
 **Algorithm**
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Algorithm for Gibbs Sampling</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Algorithm for Gibbs Sampling</p></figcaption></figure>
 
 hyperparameters: we determine $$\lambda_\Beta$$ and $$\lambda_\Omega$$.
 
@@ -77,7 +77,7 @@ Adaptive lasso - prior knowledge of independence among certain nodes.
 
 **Examples**
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Example on human gut dataset.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Example on human gut dataset.</p></figcaption></figure>
 
 CG-LASSO's conditional effects can be more informative than marginal effects.
 

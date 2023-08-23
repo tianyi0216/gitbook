@@ -18,7 +18,7 @@ Data set is soundscape recordings collected at 15 sites in Indonesia. Selected 1
 
 Annotated 3629 animal vocalizations $$V_1, V_2, \dots, V_{3629}$$ belonging to 448 sonotypes (note or series of note that constitute a unique acoustic signal). Each sonotype is assigned to one of four higher taxonomic groups: birds, invertebrates, mammals, amphibians.  E.g ($$V_1 \in$$(Sonotype 1, bird))
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Worlflow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Worlflow</p></figcaption></figure>
 
 Use scipy to get soundscape's spectrogram. Window size = 256, shape param = 0.25, number of points to overlap between window = 32. Samples were encoded in a 129 x 353389 image depicting the frequency components of soundscape in 0 - 22050 Hz range. (Height = window size, length = length of audio file/window size). Each $$V_i$$ is enclosed in a gray-scale image.
 
