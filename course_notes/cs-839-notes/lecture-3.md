@@ -109,3 +109,67 @@ $$\begin{bmatrix} x^\prime \\ y^\prime \\ 1 \end{bmatrix} = \begin{bmatrix} 1 & 
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Basic 3x3 transformations</p></figcaption></figure>
 
+Affine Transformations - combinations of linear transformations and translations.
+
+E.g parallel lines remain parallel.
+
+$$\begin{bmatrix} x^\prime \\ y^\prime \\ w^\prime \end{bmatrix} =\begin{bmatrix} a&b &c\\ d&e &f \\ 0&0&1 \end{bmatrix} \begin{bmatrix} x \\ y \\w \end{bmatrix}$$
+
+Projective transformations: affine and projective warps. Parallel lines does not necessarily remain paralle.
+
+$$\begin{bmatrix} x^\prime \\ y^\prime \\ w^\prime \end{bmatrix} =\begin{bmatrix} a&b &c\\ d&e &f \\ g&h&i \end{bmatrix} \begin{bmatrix} x \\ y \\w \end{bmatrix}$$
+
+Other def:
+
+Mosaic: obtain wider angle view by combining multiple images.
+
+Image warping: image plane in front -> image plane below, image rectification.
+
+
+
+## Deep Learning Fundamentals
+
+### Linear Classifier
+
+NN
+
+Prametric Approach. $$f(x,W) = Wx + b$$
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Linear Classifier Example</p></figcaption></figure>
+
+Hard if data not linearly separable.
+
+Now - we need a loss function and optimization.
+
+**Loss Function**
+
+Give a dataset of examples $$\{ (x_i, y_i) \}_{i=1}^N$$, where $$x_i$$ is image and $$y_i$$ is label.
+
+Loss over dataset: $$L = \frac{1}{N}\sum_i L_i(f(x_i, W), y_i)$$
+
+Multiclass SVM loss: score of correct class should be higher than that of any other class (by some margin)
+
+Let score vector be $$s = f(x_i, W)$$
+
+SVM loss: $$L_i = \sum_{j \neq y_i} \begin{cases} 0 & \text{if} s_{yi} \geq s_j + 1 \\ s_j - s_{yi} + 1 & \text{otherwise} \end{cases}$$
+
+Can be simplified to: $$L_i = \sum_{j\neq y_i} \max (0, s_j - s_{yi} + 1)$$
+
+Over full dataset: $$L = \frac{1}{N} \sum_{i=1}^N L_i$$
+
+**Regularization**
+
+prevent model from doing too well on training data.
+
+$$L(W) = \frac{1}{N}\sum_i L_i(f(x_i, W), y_i) + \lambda R(W)$$
+
+$$\lambda$$: regularization strength (param)
+
+L2: $$R(W) = \sum_k \sum_l W_{k,l}^2$$
+
+L1: $$R(W) = \sum_k \sum_l |W_{k,l} |$$
+
+Elastic Net: $$R(W) = \sum_k \sum_l \beta W_{k,l}^2 + |W_{k,l}|$$
+
+Dropout, Batch Normalization, Stochastic depth, fractional pooling, etc.
+
