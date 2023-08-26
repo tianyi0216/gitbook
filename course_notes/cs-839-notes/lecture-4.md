@@ -56,3 +56,62 @@ How to compute gradient?
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>back prop</p></figcaption></figure>
 
+
+
+## CNN
+
+Fully connected layer
+
+e.g stretch 32x32x3 image to 3072x1.&#x20;
+
+Convolution layer: preserve spatial structure.
+
+Convolve the filter with image e.g slide over image spatially, computing dot products. Filter always extend to full depth of the input.
+
+Each number - we calculate dot product between filter and 5x5x3 chunk of image -> $$w^Tx + b$$
+
+If we get 6 such filter, we stack each activation map and got a result of new imge 28x28x6.
+
+
+
+ConvNet is a sequence of Convolution layers interspersed with activation functions.
+
+In practice: common to zero pad the border.
+
+Dimension: N + 2P - F / stride + 1 (each side)
+
+
+
+**Pooling layer**
+
+make representation smaller and more manageable.
+
+operates over each activation map independently.
+
+E.g max pooling (take max)
+
+
+
+## Training NN
+
+**Activation Functions**
+
+In practice: use ReLu, don't use sigmoid or tanh.
+
+Data preprocessing:
+
+In practice: center only.
+
+* Subtract mean image
+* Subtract per channel mean
+* Subtract per channel mean and divide by per channel std.
+
+Weight Initialization:
+
+Xavier (Sigmoid) / He initialization (ReLU)
+
+* Too small -> activations go zero, gradients also 0
+* Too big -> saturate, gradients 0
+* Just right
+
+Fancier optimizer: Adam.
