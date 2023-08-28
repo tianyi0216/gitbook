@@ -12,7 +12,7 @@ Digital camera: replaces film with a sensor array, each cell in the array is lig
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Digital Image representations</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Digital Image representations</p></figcaption></figure>
 
 Each sensor records amount of light coming in.
 
@@ -26,7 +26,7 @@ Digital color image:
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Image Filtering
 
@@ -91,7 +91,7 @@ Filtering: replace each pixel with a linear combination of its neighbors, the fi
 
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>box filter</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>box filter</p></figcaption></figure>
 
 Smoothing by averaging.
 
@@ -165,7 +165,7 @@ Filters:
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>filters for edge detection</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>filters for edge detection</p></figcaption></figure>
 
 &#x20;**Image Gradient**
 
