@@ -32,7 +32,7 @@ Encoder: $$h_t = f_w(x_t, h_{t-1})$$
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 From initial hidden state predict: initial decoder state $$s_0$$, context vector $$c$$
 
@@ -46,7 +46,7 @@ Normalize aligment scores to get attention weights $$0 < a_{t,i} < 1, \sum_i a_{
 
 context vector as $$c_t = \sum_i a_{t,i} h_i$$
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>With attention</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>With attention</p></figcaption></figure>
 
 Repeat: use $$s_1$$ to compute new context vector $$c_2$$, use $$c_2$$ to compute $$s_2, y_2$$
 
@@ -58,5 +58,98 @@ Decoder doesn't use the fact that $$h_i$$ form an ordered sequence, treat them a
 
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
+Each timestep of decoder uses a different context vector that looks at different part of image.
+
+Uses in image captioning.
+
+&#x20;**Attention Layer**
+
+Inputs:
+
+Query vector: $$q$$ (shape: $$D_q$$)
+
+Input vectors: $$X$$(shape: $$N_X \times D_X$$)
+
+Similarity function: $$f_{att}$$
+
+
+
+Computation:
+
+similarities: $$e$$ (shape: $$N_X$$) $$e_i = f_att(q, X_i)$$
+
+Attention weights: $$a = softmax(e)$$ (shape $$N_X$$)
+
+Output vecotr: $$y = \sum_i a_xX_i$$ (shape $$D_X$$)
+
+
+
+Change 1: could use dot product for similarity.
+
+$$e_i = q \cdot X_i$$
+
+Change 2: use scaled dot product
+
+$$e_i = q \cdot \frac{X_i}{\sqrt{D_Q}}$$
+
+Change 3: multiple query vectors
+
+$$E = \frac{QX^T}{\sqrt{D_Q}}$$ (shape: $$N_Q \times N_X$$) $$E_{i,j} = \frac{(Q_i \cdot X_j)}{\sqrt{D_Q}}$$
+
+Change 4: Separate key and value.
+
+Key Matrix: $$W_K$$ (Shape: $$D_X \times D_Q$$)
+
+Value Matrix: $$W_V$$ (Shape: $$D_X \times D_V$$)
+
+Key Vectors: $$K = XW_K$$ (Shape: $$N_X \times D_Q$$)
+
+Value Vectors: $$V = XW_V$$ (Shape: $$N_X \times D_V$$)
+
+
+
+Final Attention Layer becomes:
+
+Inputs:
+
+Query vector: $$q$$ (shape: $$D_q$$)
+
+Input vectors: $$X$$(shape: $$N_X \times D_X$$)
+
+Key Matrix: $$W_K$$ (Shape: $$D_X \times D_Q$$)
+
+Value Matrix: $$W_V$$ (Shape: $$D_X \times D_V$$)
+
+Computation:
+
+Key Vectors: $$K = XW_K$$ (Shape: $$N_X \times D_Q$$)
+
+Value Vectors: $$V = XW_V$$ (Shape: $$N_X \times D_V$$)
+
+$$E = \frac{QX^T}{\sqrt{D_Q}}$$ (shape: $$N_Q \times N_X$$) $$E_{i,j} = \frac{(Q_i \cdot X_j)}{\sqrt{D_Q}}$$ Similarities
+
+Attention weights: $$a = softmax(e)$$ (shape $$N_X$$)
+
+Output vecotr: $$Y = AV$$ (shape: $$N_Q \times D_V$$) $$Y_i = \sum_j A_{i,j}V_j$$
+
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Attention Layer</p></figcaption></figure>
+
+&#x20;**Self Attention Layer**
+
+One query vector per input vector
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Self Attention</p></figcaption></figure>
+
+Consider permutting the input vectors.
+
+Queries and key will be the same, but permutted.Same for similarities, attention and output.
+
+Self attention layer is Permutation Equivariant. $$f(s(x)) = s(f(x))$$
+
+Self-attention layer works on sets of vectors.
+
+Self-attention doesn't know the order of the vectors it is processing. So add positional encoding $$E$$ to the input. Can be learned lookup table, or fixed function
