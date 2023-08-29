@@ -153,3 +153,23 @@ Self attention layer is Permutation Equivariant. $$f(s(x)) = s(f(x))$$
 Self-attention layer works on sets of vectors.
 
 Self-attention doesn't know the order of the vectors it is processing. So add positional encoding $$E$$ to the input. Can be learned lookup table, or fixed function
+
+
+
+&#x20;**Masked Self-Attention Layer**&#x20;
+
+Don't let vectors look ahead in sequence. Used for language modeling (predict next word).
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>masked</p></figcaption></figure>
+
+
+
+&#x20;**Multihead Self-Attention**
+
+Use H independent Attention Heads in parallel.
+
+Run self attention in parallel on each set of input vectors (different weights per head).
+
+
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>multihead</p></figcaption></figure>
