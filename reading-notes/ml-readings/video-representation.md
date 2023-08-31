@@ -9,7 +9,7 @@ Proposes a method that jointly learns a video representation to encode step conc
 
 
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Model outcome</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Model outcome</p></figcaption></figure>
 
 Method
 
@@ -21,6 +21,6 @@ Overview: leverage pretrained text encoder $$g$$ that is fixed during learning, 
 
 
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>method</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>method</p></figcaption></figure>
 
 It is important to know that the model uses a diffusion process to model p(x\_j | {x\_i}_{i \neq j). Which gradually add noise to input x_j over T steps.&#x20;

@@ -73,7 +73,7 @@ Three core components:&#x20;
 
 
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Trained using 1.5 million spectrograms with a maximum of 3500 samples per class.&#x20;
 

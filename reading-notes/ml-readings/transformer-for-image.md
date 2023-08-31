@@ -10,7 +10,7 @@ This paper applies transformer directly to images. On large datasets, BiT attain
 
 
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Encoding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Encoding</p></figcaption></figure>
 
 Method:
 

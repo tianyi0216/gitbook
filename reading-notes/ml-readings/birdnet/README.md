@@ -53,7 +53,7 @@ Based on ResNet. Improved residual blocks and scaling of the network in width ($
 
 3: classification block.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 

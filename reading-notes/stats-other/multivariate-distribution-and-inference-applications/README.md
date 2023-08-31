@@ -55,7 +55,7 @@ Poisson can be effected by overdisperson due to zero-inflated dataset, thus bell
 
 ### Multivariate ZIB distribution.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Model (to lazy to type all again since it was typed before)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Model (to lazy to type all again since it was typed before)</p></figcaption></figure>
 
 **Remark 2** PMF of $$Y \sim MZIB(\alpha, \omega)$$ can be expressed as $$f(y;\alpha , \omega ) = \omega Pr(D = y) + (1-\omega )Pr(X = y)$$, where $$D = (D_1, \dots, D_m)^T$$ and $$\{D_r\}_{r=1}^m \overset{iid}\sim Degenerate(0)$$.
 
@@ -84,9 +84,9 @@ $$
 
 where $$k_{k_r} = e^{W(\alpha_r)}T_{k_r}(W(\alpha_r))$$. We then got the following propositions.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Proposition 2, 3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Proposition 2, 3</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Corr3, Prop 4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Corr3, Prop 4</p></figcaption></figure>
 
 I'm going to skip few propositions (there are just too many, see paper for all and their proof)
 
@@ -110,11 +110,11 @@ Some assumptions on behavior of $$l(\alpha, \omega)$$ as $$n \rightarrow \infty$
 
 Can be from direct maximization of log-likelihood function.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>First two  derivatives</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>First two  derivatives</p></figcaption></figure>
 
 No-closed form of ML estimate, non-linear optimization algorithm.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Optimization Process</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Optimization Process</p></figcaption></figure>
 
 It is simpler to otpimize $$l_{profile}(\alpha)$$. - earlier is m dimensional later is (m+1) dimensional.
 
@@ -126,10 +126,10 @@ We partition $$I$$ defined earlier into $$I = I_e \cup I_s$$ , $$I_e$$ denote th
 
 Let $$V$$ be the latent variable that denotes number of elements in set $$I_e$$ to split $$n_0$$ into $$V$$ and $$n_0 - V$$, $$V\in \{0, 1, \dots, n\}$$.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Distribution</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Distribution</p></figcaption></figure>
 
 2 steps of EM - E-step: compute the conditional expectation of complete log-likelihood function given $$Y_{data}$$.
 
 M-step: Maximization of the Q-function. (from step 1)
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>EM</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>EM</p></figcaption></figure>
