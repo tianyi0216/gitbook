@@ -30,6 +30,7 @@
   * [Video Representation](reading-notes/ml-readings/video-representation.md)
   * [Transformer for Image](reading-notes/ml-readings/transformer-for-image.md)
   * [ML idnetification from Image Data](reading-notes/ml-readings/ml-idnetification-from-image-data.md)
+  * [Generative Pre-Training](reading-notes/ml-readings/generative-pre-training.md)
 * [Stats/Other](reading-notes/stats-other/README.md)
   * [CAR-LASSO](reading-notes/stats-other/car-lasso.md)
   * [Multivariate Distribution and Inference Applications](reading-notes/stats-other/multivariate-distribution-and-inference-applications/README.md)
@@ -48,6 +49,7 @@
   * [Lecture 5](course\_notes/cs-839-notes/lecture-5.md)
   * [Lecture 6](course\_notes/cs-839-notes/lecture-6.md)
   * [Lecture 7](course\_notes/cs-839-notes/lecture-7.md)
+  * [Lecture 8](course\_notes/cs-839-notes/lecture-8.md)
 
 ## 🗯 Personal Interest
 
