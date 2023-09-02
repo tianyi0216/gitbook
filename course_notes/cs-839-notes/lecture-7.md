@@ -47,3 +47,48 @@ Discriminative -> Assign labels to data Feature Learning (with labels)
 Generative -> Detect outliers. Feature learning (without labels). Sample to generate new data.
 
 Conditional -> Assign labels, while rejecting outliers. Generate new data conditioned on input labels.
+
+Taxonomy of Generative Models
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Generative Model taxonomy</p></figcaption></figure>
+
+## Autoregressive Model
+
+Goal: explicit function for $$p(x) = f(x, W)$$
+
+Given dataset $$x^{(1)}, x^{(2)}, \dots, x^{(N)}$$, train the model by solving:
+
+$$W^* = \argmax_W \prod_i p(x^{(i)})$$ Maximize probability of training data
+
+$$= \argmax_W \sum_i \log p(x^{(i)})$$ Log trick to exchange product for sum
+
+$$=\argmax_W \sum_i \log f(x^{(i)}, W)$$ Loss function, train for GD.
+
+
+
+Assume $$x$$ consist of multiple subparts: $$x = (x_1, x_2, x_3, \dots, x_T)$$
+
+Break down probability using chain rule: $$p(x) = p(x_1, x_2, x_3, \dots, x_T) = p(x_1)p(x_2|x_1)p(x_3|x_1, x_2)\dots$$
+
+$$= \prod_{t=1}^T p(x_t|x_1, \dots, x_{t-1})$$ Probability of next subpart given all previous subparts.
+
+![](<../../.gitbook/assets/image (30).png>)
+
+
+
+### Pixel RNN
+
+Generate image pixels one at a time, starting at upper left corner.
+
+Compute hidden state for each pixel that depends on hidden states and RGB from left and above.
+
+$$
+h_{x,y} = f(h_{x-1,y}, h_{x, y-1}, W)
+$$
+
+At each pixel, predict red, then blue, then green, softmax over $$[0,1,\dots,255]$$
+
+Each pixel depends implciity on all pixels above and left.
+
+Problem: slow during training and testing, N x N image requires 2N-1 sequential steps.
+
