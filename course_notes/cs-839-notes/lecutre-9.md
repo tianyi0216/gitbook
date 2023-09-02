@@ -8,7 +8,7 @@ Assume we have data xi drawn from distribution $$p_{data}(x)$$, we want to sampl
 
 Idea: Introduce a latent variable z with simple prior p(z). Sample $$z \sim p(z)$$ and pass to Generator Network $$x = G(z)$$. Then x is sample from the generator distribution $$p_G$$. Want $$p_G = p_{data}$$
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>GANs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>GANs</p></figcaption></figure>
 
 Training Objective
 
@@ -79,5 +79,5 @@ Caveats:
 
 Learn p(x|y) instead of p(y). Make generator and discriminator both take label y as additional input.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Batch Normalization</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Batch Normalization</p></figcaption></figure>
 

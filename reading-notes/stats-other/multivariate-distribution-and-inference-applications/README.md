@@ -84,9 +84,9 @@ $$
 
 where $$k_{k_r} = e^{W(\alpha_r)}T_{k_r}(W(\alpha_r))$$. We then got the following propositions.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Proposition 2, 3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Proposition 2, 3</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Corr3, Prop 4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Corr3, Prop 4</p></figcaption></figure>
 
 I'm going to skip few propositions (there are just too many, see paper for all and their proof)
 
@@ -110,11 +110,11 @@ Some assumptions on behavior of $$l(\alpha, \omega)$$ as $$n \rightarrow \infty$
 
 Can be from direct maximization of log-likelihood function.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>First two  derivatives</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>First two  derivatives</p></figcaption></figure>
 
 No-closed form of ML estimate, non-linear optimization algorithm.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Optimization Process</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Optimization Process</p></figcaption></figure>
 
 It is simpler to otpimize $$l_{profile}(\alpha)$$. - earlier is m dimensional later is (m+1) dimensional.
 
@@ -132,4 +132,4 @@ Let $$V$$ be the latent variable that denotes number of elements in set $$I_e$$ 
 
 M-step: Maximization of the Q-function. (from step 1)
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>EM</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>EM</p></figcaption></figure>

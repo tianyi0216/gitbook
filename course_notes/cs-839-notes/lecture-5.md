@@ -32,7 +32,7 @@ Encoder: $$h_t = f_w(x_t, h_{t-1})$$
 
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 From initial hidden state predict: initial decoder state $$s_0$$, context vector $$c$$
 
@@ -58,7 +58,7 @@ Decoder doesn't use the fact that $$h_i$$ form an ordered sequence, treat them a
 
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Each timestep of decoder uses a different context vector that looks at different part of image.
 

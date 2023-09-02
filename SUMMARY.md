@@ -51,6 +51,7 @@
   * [Lecture 7](course\_notes/cs-839-notes/lecture-7.md)
   * [Lecture 8](course\_notes/cs-839-notes/lecture-8.md)
   * [Lecutre 9](course\_notes/cs-839-notes/lecutre-9.md)
+  * [Lecture 10](course\_notes/cs-839-notes/lecture-10.md)
 
 ## 🗯 Personal Interest
 

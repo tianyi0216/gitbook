@@ -20,6 +20,6 @@ Poisson distribution: The Poisson distribution is a probability distribution tha
 
 Degenerate distribution: distribution takes only a single point - where distribution of that point is 1 and 0 elsewhere.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Touchard Polynomials</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Touchard Polynomials</p></figcaption></figure>
 
 Moment: Measure describe the shape of points.

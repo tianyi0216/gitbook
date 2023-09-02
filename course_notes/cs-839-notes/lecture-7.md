@@ -50,7 +50,7 @@ Conditional -> Assign labels, while rejecting outliers. Generate new data condit
 
 Taxonomy of Generative Models
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Generative Model taxonomy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Generative Model taxonomy</p></figcaption></figure>
 
 ## Autoregressive Model
 
