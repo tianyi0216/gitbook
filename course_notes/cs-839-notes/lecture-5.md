@@ -46,7 +46,7 @@ Normalize aligment scores to get attention weights $$0 < a_{t,i} < 1, \sum_i a_{
 
 context vector as $$c_t = \sum_i a_{t,i} h_i$$
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>With attention</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>With attention</p></figcaption></figure>
 
 Repeat: use $$s_1$$ to compute new context vector $$c_2$$, use $$c_2$$ to compute $$s_2, y_2$$
 
@@ -136,13 +136,13 @@ Output vecotr: $$Y = AV$$ (shape: $$N_Q \times D_V$$) $$Y_i = \sum_j A_{i,j}V_j$
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Attention Layer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Attention Layer</p></figcaption></figure>
 
 &#x20;**Self Attention Layer**
 
 One query vector per input vector
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Self Attention</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Self Attention</p></figcaption></figure>
 
 Consider permutting the input vectors.
 

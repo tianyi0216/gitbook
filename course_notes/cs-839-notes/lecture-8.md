@@ -139,4 +139,4 @@ Diagonal prior on p(z) causes dimensions of z to be independent.
 4. Run modified z through decoder to get a distribution over data sample.
 5. Sample new data from (4).
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Summary</p></figcaption></figure>

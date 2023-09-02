@@ -8,11 +8,11 @@ Assume we have data xi drawn from distribution $$p_{data}(x)$$, we want to sampl
 
 Idea: Introduce a latent variable z with simple prior p(z). Sample $$z \sim p(z)$$ and pass to Generator Network $$x = G(z)$$. Then x is sample from the generator distribution $$p_G$$. Want $$p_G = p_{data}$$
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>GANs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>GANs</p></figcaption></figure>
 
 Training Objective
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Objective</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Objective</p></figcaption></figure>
 
 Train using alternating gradient updates.
 
@@ -56,4 +56,28 @@ $$= \min_G (E_{x \sim p_{data}} [\log \frac{2}{2} \frac{p_{data}(x)}{p_{data}(x)
 $$= \min_G (E_{x \sim p_{data}} [\log \frac{2 \cdot p_{data}(x)}{p_{data}(x) + p_G(x)}] + E_{x\sim p_G} [\log  \frac{2 \cdot p_G(x)}{p_{data}(x) + p_G(x)}] - \log 4)$$
 
 KL Divergence: $$KL(p,q) = E_{x \sim p} [\log \frac{p(x)}{q(x)}]$$
+
+$$= \min_G (KL(p_{data}, \frac{p_{data} + p_G}{2}) + KL(p_G, \frac{p_{data} + p_G}{2}) - \log 4)$$
+
+Jensen-Shannon Divergence: $$JSD(p,q) = \frac{1}{2}KL(p, \frac{p+q}{2}) + \frac{1}{2} KL (q, \frac{p+q}{2})$$
+
+$$=\min_G (2\cdot JSD(p_{data}, p_G) - \log 4)$$
+
+JDS is always nonnegative, and zero only when two distribution are equal, thus p\_data = p\_G is global min.&#x20;
+
+Summary: Global min and max happens when:
+
+1. $$D_G^* (x) = \frac{p_{data}(x)}{p_{data}(x) + p_G(x)}$$ (Optimal discriminator for any G)
+2. $$p_G(x) = p_{data}(x)$$ (Optimal generator for optimal D)
+
+Caveats:
+
+1. G and D are neural nets with fixed architecture, we don't know whether they can actually represent the optimal D and G.
+2. This tells nothing about convergence to the optimal solution.
+
+### Conditional GANs
+
+Learn p(x|y) instead of p(y). Make generator and discriminator both take label y as additional input.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Batch Normalization</p></figcaption></figure>
 
