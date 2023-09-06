@@ -54,6 +54,8 @@
   * [Lecture 10](course\_notes/cs-839-notes/lecture-10.md)
 * [CS 539 Notes](course\_notes/cs-539-notes/README.md)
   * [Module 1](course\_notes/cs-539-notes/module-1.md)
+* [431 Notes](course\_notes/431-notes/README.md)
+  * [Lec 1](course\_notes/431-notes/lec-1.md)
 
 ## 🗯 Personal Interest
 
