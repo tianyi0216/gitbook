@@ -84,7 +84,7 @@ $$
 
 where $$k_{k_r} = e^{W(\alpha_r)}T_{k_r}(W(\alpha_r))$$. We then got the following propositions.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Proposition 2, 3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Proposition 2, 3</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Corr3, Prop 4</p></figcaption></figure>
 
@@ -110,7 +110,7 @@ Some assumptions on behavior of $$l(\alpha, \omega)$$ as $$n \rightarrow \infty$
 
 Can be from direct maximization of log-likelihood function.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>First two  derivatives</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>First two  derivatives</p></figcaption></figure>
 
 No-closed form of ML estimate, non-linear optimization algorithm.
 
@@ -126,7 +126,7 @@ We partition $$I$$ defined earlier into $$I = I_e \cup I_s$$ , $$I_e$$ denote th
 
 Let $$V$$ be the latent variable that denotes number of elements in set $$I_e$$ to split $$n_0$$ into $$V$$ and $$n_0 - V$$, $$V\in \{0, 1, \dots, n\}$$.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Distribution</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Distribution</p></figcaption></figure>
 
 2 steps of EM - E-step: compute the conditional expectation of complete log-likelihood function given $$Y_{data}$$.
 

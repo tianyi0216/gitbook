@@ -56,6 +56,8 @@
   * [Module 1](course\_notes/cs-539-notes/module-1.md)
 * [431 Notes](course\_notes/431-notes/README.md)
   * [Lec 1](course\_notes/431-notes/lec-1.md)
+* [525](course\_notes/525/README.md)
+  * [Lec1](course\_notes/525/lec1.md)
 
 ## 🗯 Personal Interest
 

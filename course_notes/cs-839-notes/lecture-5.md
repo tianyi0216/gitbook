@@ -32,7 +32,7 @@ Encoder: $$h_t = f_w(x_t, h_{t-1})$$
 
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 From initial hidden state predict: initial decoder state $$s_0$$, context vector $$c$$
 
@@ -46,7 +46,7 @@ Normalize aligment scores to get attention weights $$0 < a_{t,i} < 1, \sum_i a_{
 
 context vector as $$c_t = \sum_i a_{t,i} h_i$$
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>With attention</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>With attention</p></figcaption></figure>
 
 Repeat: use $$s_1$$ to compute new context vector $$c_2$$, use $$c_2$$ to compute $$s_2, y_2$$
 
@@ -58,7 +58,7 @@ Decoder doesn't use the fact that $$h_i$$ form an ordered sequence, treat them a
 
 
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Each timestep of decoder uses a different context vector that looks at different part of image.
 
@@ -136,13 +136,13 @@ Output vecotr: $$Y = AV$$ (shape: $$N_Q \times D_V$$) $$Y_i = \sum_j A_{i,j}V_j$
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Attention Layer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Attention Layer</p></figcaption></figure>
 
 &#x20;**Self Attention Layer**
 
 One query vector per input vector
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Self Attention</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Self Attention</p></figcaption></figure>
 
 Consider permutting the input vectors.
 

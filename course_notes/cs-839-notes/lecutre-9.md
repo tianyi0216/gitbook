@@ -12,7 +12,7 @@ Idea: Introduce a latent variable z with simple prior p(z). Sample $$z \sim p(z)
 
 Training Objective
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Objective</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Objective</p></figcaption></figure>
 
 Train using alternating gradient updates.
 

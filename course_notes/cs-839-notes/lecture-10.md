@@ -18,7 +18,7 @@ For sampling: $$x_t = \sqrt{\hat{\alpha}_t}x_0 + \sqrt{(1-\hat{\alpha}_t}\epsilo
 
 $$\beta_t$$ values schedule is designed such that $$\hat{\alpha}_t \rightarrow 0$$ and $$q(x_T|x_0) \approx N(x_T; 0, I)$$
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Forward distribution</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Forward distribution</p></figcaption></figure>
 
 ### Denoising
 
@@ -32,15 +32,15 @@ In general, $$q(x_{t-1}|x_t) \propto q(x_{t-1})q(x_t|x_{t-1})$$ is intractable
 
 We can approximate $$q(x_{t-1}|x_t)$$ use normal distribution if $$\beta_t$$ is small each forward diffusion step.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Reverse</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Reverse</p></figcaption></figure>
 
 Learning
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Learning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Learning</p></figcaption></figure>
 
 Parameterization
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 

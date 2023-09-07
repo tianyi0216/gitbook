@@ -88,7 +88,7 @@ $$
 p_\theta(x) = \frac{p_\theta(x|z)p_\theta(z)}{p_\theta(z|x)} \approx \frac{p_\theta(x|z)p_\theta(z)}{q_\Phi(z|x)}
 $$
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>VAE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>VAE</p></figcaption></figure>
 
 VAE
 
@@ -114,7 +114,7 @@ $$\log p_\theta(x) \geq E_{z \sim q_\Phi(z|x)} [\log p_\theta(x|z)] - D_{KL}(q_\
 
 Jointly train the encoder q and decoder p to maximize the variationla lower bound on the data likelihood. Alsso called Evidence Lower Bound (ELBo)
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>VAE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>VAE</p></figcaption></figure>
 
 3. sample code z from encoder output.
 4. Run sample code through decoder to get a distribution over data samples.
@@ -139,4 +139,4 @@ Diagonal prior on p(z) causes dimensions of z to be independent.
 4. Run modified z through decoder to get a distribution over data sample.
 5. Sample new data from (4).
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Summary</p></figcaption></figure>
