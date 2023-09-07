@@ -42,6 +42,7 @@
 ## 🈚 Course\_Notes
 
 * [CS 839 Notes](course\_notes/cs-839-notes/README.md)
+  * [1](course\_notes/cs-839-notes/1.md)
   * [Lecture 1](course\_notes/cs-839-notes/lecture-1.md)
   * [Lecture 2](course\_notes/cs-839-notes/lecture-2.md)
   * [Lecture 3](course\_notes/cs-839-notes/lecture-3.md)
