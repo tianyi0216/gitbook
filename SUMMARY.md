@@ -60,6 +60,8 @@
   * [Lec 1](course\_notes/431-notes/lec-1.md)
 * [525](course\_notes/525/README.md)
   * [Lec1](course\_notes/525/lec1.md)
+* [544 Notes](course\_notes/544-notes/README.md)
+  * [Lec 02](course\_notes/544-notes/lec-02.md)
 
 ## 🗯 Personal Interest
 
