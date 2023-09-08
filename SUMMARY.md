@@ -31,6 +31,7 @@
   * [Transformer for Image](reading-notes/ml-readings/transformer-for-image.md)
   * [ML idnetification from Image Data](reading-notes/ml-readings/ml-idnetification-from-image-data.md)
   * [Generative Pre-Training](reading-notes/ml-readings/generative-pre-training.md)
+  * [Attention is all you need](reading-notes/ml-readings/attention-is-all-you-need.md)
 * [Stats/Other](reading-notes/stats-other/README.md)
   * [CAR-LASSO](reading-notes/stats-other/car-lasso.md)
   * [Multivariate Distribution and Inference Applications](reading-notes/stats-other/multivariate-distribution-and-inference-applications/README.md)
