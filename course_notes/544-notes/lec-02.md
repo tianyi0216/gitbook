@@ -22,21 +22,21 @@ Linux Commands:
 18. python3: run python ptrogram.
 19. which: - where is python3(or other) installed on computer.
 20. echo: print things.
-21. \|:
-22. \>:
-23. \>>:
-24. &>:
-25. wc:
-26. grep:
-27. find:
-28. &:
-29. ps:
-30. kill:
-31. pkill:
-32. htop:
-33. df:
-34. du:
-35. Isof:
+21. \|: pipe - connect output of one process to input of the next.
+22. \>: redirection. A > output.txt - redirect of stdout to output.txt
+23. \>>: append to file if exists (not replace like >)
+24. &>: standard error, and stdout both redirection.
+25. wc: world count - how many world typed (ctrld to exit out) line, world,character
+26. grep: - search # grep worldtosearch  #-v inverse search case insensitive grep -i madison.
+27. find: find looks at directory. dump everything in a directory.&#x20;
+28. &: Async. runs in background and get output immediagtely
+29. ps: ps - list processes. # flags: ps a (all user on vm) ps ax (everything, not just shell).&#x20;
+30. kill: kill process. # kill PID . (can find pid using grep).  (flg - kill -9 ( most strong), level 1-9).&#x20;
+31. pkill: #pkill Name - process name. Kill a program. e.g pkill python3
+32. htop: show process running, resources (CPU, memory)
+33. df: storage and capacity.  #df - h human readable.  #df -h . 25G disk.&#x20;
+34. du: information about how much space in different places. #du -hs summary. -hs ./\*&#x20;
+35. Isof:  # list open "files" . (use for networks)  #sudo lsof -i tcp (tcp) -P ( port number)
 
 Notes:
 
@@ -63,3 +63,19 @@ First line  on file - tells which program to use, how to execute.
 (p1 - which bash) #! - top line
 
 PATH variable. in bash, environment variable start with $. #$PATH.&#x20;
+
+
+
+## Lec 03
+
+pipe operate on stdin and stdout.&#x20;
+
+To connect two program, A | B. stdout of A -> stdin of B.
+
+![](<../../.gitbook/assets/image (1).png>)
+
+stderr -> for things like warning that shouldn't be chained. (straight to screen) (stack trace go to stderr).&#x20;
+
+
+
+Redirection: Process to file.  A >output.txt. (can redirect from stdout or stderr)&#x20;

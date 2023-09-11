@@ -32,11 +32,11 @@ In general, $$q(x_{t-1}|x_t) \propto q(x_{t-1})q(x_t|x_{t-1})$$ is intractable
 
 We can approximate $$q(x_{t-1}|x_t)$$ use normal distribution if $$\beta_t$$ is small each forward diffusion step.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Reverse</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Reverse</p></figcaption></figure>
 
 Learning
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Learning</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Learning</p></figcaption></figure>
 
 Parameterization
 
