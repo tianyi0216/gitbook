@@ -25,9 +25,9 @@ Dockerfile INSTRUCTIONS&#x20;
 
 put in same lne, RUN command && command."add -y, apt-get install -y".
 
-17\. COPY:&#x20;
+17\. COPY:  #COPY frommycomputer tocontainer. (relative path, /path/file)
 
-18\. CMD:
+18\. CMD: execute command \["list of command"]
 
 
 
