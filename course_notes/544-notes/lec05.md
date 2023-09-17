@@ -38,3 +38,9 @@ x + float\_info.epsilon # next number after 1.0
 
 
 
+Pytorch build in docker example
+
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+
+
