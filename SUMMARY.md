@@ -66,6 +66,7 @@
   * [Lec 04](course\_notes/544-notes/lec-04.md)
   * [Lec05](course\_notes/544-notes/lec05.md)
   * [lec 06](course\_notes/544-notes/lec-06.md)
+  * [Lec08](course\_notes/544-notes/lec08.md)
 
 ## 🗯 Personal Interest
 
