@@ -39,6 +39,9 @@
   * [Network Visualization](reading-notes/stats-other/network-visualization.md)
   * [Microbiome Network Analysis](reading-notes/stats-other/microbiome-network-analysis.md)
   * [Gut Microbiome](reading-notes/stats-other/gut-microbiome.md)
+  * [Microbiome ML](reading-notes/stats-other/microbiome-ml/README.md)
+    * [Gut Microbiota Composition is related to AD Pathology](reading-notes/stats-other/microbiome-ml/gut-microbiota-composition-is-related-to-ad-pathology.md)
+    * [Machine learning and deep learning applications in microbiome research](reading-notes/stats-other/microbiome-ml/machine-learning-and-deep-learning-applications-in-microbiome-research.md)
 
 ## 🈚 Course\_Notes
 
